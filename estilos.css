@@ -1,3 +1,50 @@
+/* iconos de las noticias */
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('fuentes/icomoon.eot?-t8obzp');
+	src:url('fuentes/icomoon.eot?#iefix-t8obzp') format('embedded-opentype'),
+		url('fuentes/icomoon.woff?-t8obzp') format('woff'),
+		url('fuentes/icomoon.ttf?-t8obzp') format('truetype'),
+		url('fuentes/icomoon.svg?-t8obzp#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-flecha-arriba:before {
+	content: "\f0aa";
+}
+.icon-flecha-abajo:before {
+	content: "\f0ab";
+}
+.icon-lapiz:before {
+	content: "\e600";
+}
+.icon-estrella:before {
+	content: "\e601";
+}
+
+
+
+
+
+
+
+
 /* Para los enlaces */
 
 a 
@@ -10,7 +57,8 @@ a
 body  
 {
 	background: #EEEEEE;
-	font-family: Arial;
+	/* font-family: Arial; */
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;		
 }
 
@@ -145,7 +193,8 @@ nav ul #publicar_nav
 {
 	position: absolute;
 	right: 0;
-	top: -0.1em;	
+	/* top: 0.1em; */	
+	top: -0.2em;
 }
 
 
@@ -153,10 +202,12 @@ nav ul #publicar_nav a
 {
 	background: #22BCE0;
 	border-radius: 5px;
-	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px; 
+	
+
 	font-style: italic;
-	padding: 0.6em 0.8em;
-	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+	padding: 0.9em 0.8em;
+	text-shadow: rgba(0,0,0,0.9) 2px 2px 5px;
 }
 
 #contenido
@@ -254,3 +305,6 @@ nav ul #publicar_nav a
 {
 	float: right;
 }
+
+
+
