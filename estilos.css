@@ -33,9 +33,13 @@
 }
 .icon-lapiz:before {
 	content: "\e600";
+	margin-right: .5em;
 }
 .icon-estrella:before {
 	content: "\e601";
+	position: relative;
+	top: .1em;
+	margin-right: .5em;
 }
 
 
@@ -134,7 +138,7 @@ header figure
 
 header #avatar
 {
-	margin: 1.5em 2em 0 0;
+	margin: 1.5em 2em 0 0; 
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -151,7 +155,7 @@ header #avatar img
 header #logo img 
 {
 	border-right: 1px solid white;
-	padding-right: 0.5em;
+	padding-right: 0.8em;
 	margin-right: 0.5em;	
 	width: 52px;
 }
@@ -168,7 +172,7 @@ nav ul
 {
 	list-style: none;
 	margin: 0;
-	padding: 0;
+	padding: 0 6em 0 .5em;
 }
 
 
@@ -298,6 +302,29 @@ nav ul #publicar_nav a
 	top: 100%;	
 	right: 3%;
 }
+
+#contenido .item .votacion a 
+{
+	text-decoration: none;
+}
+
+#contenido .item .votacion .Guardar_item
+{
+	color: #FFBE2C;
+}
+
+#contenido .item .votacion .down
+{
+	color: #DD4F24;
+}
+
+
+#contenido .item .votacion .up
+{
+	color: #22BC68;
+}   
+
+
 
 
 #contenido .item .votacion .comentarios_item,
